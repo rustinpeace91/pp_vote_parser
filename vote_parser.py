@@ -46,4 +46,6 @@ def read_links():
             parse_link(soup, line)
 
 
-read_links()
+if __name__ == "__main__":
+    # execute only if run as a script
+    read_links()
